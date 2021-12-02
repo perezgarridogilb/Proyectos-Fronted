@@ -83,6 +83,11 @@ nav .profile-link a {
     background-size: cover;
 }
 
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+
 .home-main section {
     display: grid;
     grid-column: 2;
