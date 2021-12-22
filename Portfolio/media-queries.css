@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+    #main .ts {
+        font-size: 1.75rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #main .ws {
+        max-width: 20%;
+    }
+
+    #main .ts {
+        font-size: 0.77rem;
+    }
+
+    #main .bs {
+        font-size: 10px;
+    }
+
+}
