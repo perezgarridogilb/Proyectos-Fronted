@@ -1,6 +1,10 @@
 .text-platzi {
     color: #97c93e !important;
   }
+
+  .btn {
+    border-radius: 3px;
+  }
   
   .btn-platzi {
     background-color: #97c93e;
@@ -8,7 +12,7 @@
   }
   
   .btn-platzi:hover {
-    background-color: #82ad36;
+    background-color: white;
   }
   
   #header img {
@@ -17,6 +21,19 @@
   
   #header {
     background-color: rgba(0, 0, 0, 0.9);  
+  }
+
+  #header  {
+    min-height: 60px;
+  }
+
+  .navbar-toggle {
+    background-color: #7eb444;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='4' stroke-linecap='butt' stroke-miterlimit='20' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c9";
   }
   
   #main .carousel-inner img {
@@ -30,22 +47,23 @@
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
-    
   }
   
-  #carousel {
-    position: relative;
+  #main .imagen_fondo {
+    background-image: url(./assets/images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
   }
   
-  #carousel .overlay {
-    position: absolute;
+  #main .overlay {
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    height: 100vh;
   }
   
   #carousel .overlay .container,
@@ -54,8 +72,7 @@
   }
   
   #place-time {
-    background-color: #343a40;
-    color: white;
+    
   }
   
   #place-time img {
@@ -63,7 +80,7 @@
   }
   
   #footer {
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    background: rgba(245,245,245,0.6);
   }
   
   #footer a {

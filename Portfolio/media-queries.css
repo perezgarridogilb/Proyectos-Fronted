@@ -1,5 +1,6 @@
 @media (min-width: 1200px) {
     #main .ts {
+        line-height: 0.90cm;
         font-size: 45px;
     }
 
@@ -7,11 +8,13 @@
 
 @media (max-width: 600px) {
     #main .ws {
-        max-width: 20%;
+        max-width: 250px;
     }
 
     #main .ts {
-        font-size: 0.77rem;
+        vertical-align: text-top; 
+        line-height: 0.50cm;
+        font-size: 30px;
     }
 
     #main .bs {
