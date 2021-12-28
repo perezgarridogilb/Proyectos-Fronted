@@ -1,9 +1,15 @@
-@media (min-width: 1200px) {
+@media (min-width: 1240px) {
     #main .ts {
         line-height: 0.90cm;
         font-size: 45px;
     }
 
+}
+
+@media (max-height: 300px) {
+    #main .overlay {
+        height: 314px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -20,5 +26,9 @@
     #main .bs {
         font-size: 10px;
     }
+
+    #main .imagen_fondo {
+        background-image: url(./assets/images/bg_responsive.png);
+      }
 
 }
