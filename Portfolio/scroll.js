@@ -1,6 +1,5 @@
 window.addEventListener("scroll", function(){
 var header = document.getElementById("header");
-var nav = document.querySelector("nav");
-var origOffsetY = nav.offsetTop;
-    header.classList.toggle("abajo",window.pageYOffset > 211);
+var nav = document.getElementById("ideee").offsetTop;
+    header.classList.toggle("abajo",window.pageYOffset > nav);
 })
