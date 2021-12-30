@@ -1,13 +1,4 @@
 @media (min-width: 1240px) {
-    #main .ts {
-        line-height: 0.90cm;
-        font-size: 45px;
-    }
-    #portfolio .fs {
-        border-radius: 10px;
-        height: 210px;
-        width: 360px;
-      }
 
 }
 
@@ -22,7 +13,7 @@
         max-width: 250px;
     }
 
-    #main .ts {
+    #main .tss {
         vertical-align: text-top; 
         line-height: 0.50cm;
         font-size: 30px;
@@ -34,12 +25,6 @@
 
     #main .imagen_fondo {
         background-image: url(./assets/images/bg_responsive.png);
-      }
-
-    .fs {
-        border-radius: 10px;
-        height: 110px;
-        width: 260px;
       }
 
 }
