@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--grey);  
+}
+
 .text-portfolio {
     background-color: #083872;
     font-size: 1rem;
@@ -14,6 +20,8 @@
   .btn-portfolio {
     border-radius: 3px;
     color: white;
+    height: 50px;
+    width: 177px;
   }
   
   .btn-portfolio:hover {
@@ -43,7 +51,7 @@
   }
 
   .navbar-toggle {
-    background-color: #7eb444;
+    background-color: 0;
   }
   .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='4' stroke-linecap='butt' stroke-miterlimit='20' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -84,15 +92,34 @@
   #me .about {
     line-height: 40px;
   }
+  
+  #me .presentation {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
 
   #me .fa-git-alt {
     color: #f34f29;
   }
 
   #me .fa-angular {
-    color: red;
+    color: var(--red);
   }
-
+  #services .bi-journal-check {
+    font-size: 40px;
+    margin: 20px;
+    color: var(--black);
+  }
+  #services .bi-megaphone-fill {
+    font-size: 40px;
+    margin: 20px;
+    color: var(--orange);
+  }
+  #services .bi-robot {
+    font-size: 40px;
+    margin: 20px;
+    color: var(--green);
+  }
   #carousel .overlay .container,
   #carousel .overlay .row {
     height: 100%;
