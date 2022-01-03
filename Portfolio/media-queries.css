@@ -1,40 +1,18 @@
-@media (min-width: 1240px) {
-
+@media (max-width: 1199px) {
+    .modal-nav-body {
+        height: 100vh;
+    }
 }
 
-@media (max-height: 300px) {
-    .navbar-toggle {
-        float: left !important;
-        margin-left: 15px;
-        margin-right: 0;
-      }
-      
-    .collapse {
-        width: 100%;
-        height: auto;
-      }
-      
-    .modal-nav-body {
-        margin-top: 100px; 
-      }
-      
-    .modal-nav-body ul {
-        list-style-type: none;
-        color: white;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-      }
-      
-    .modal-nav-body ul li {
-        text-align: center;
-        font-size: 130%;
-        padding: 8px;
-        text-transform: uppercase;
-      }
-
+@media (max-height: 515px) {
     #main .overlay {
-        height: 314px;
+        height: 377px;
+    }
+}
+
+@media (max-width: 270px) {
+    #main .overlay {
+        width: 268px;
     }
 }
 
@@ -46,8 +24,13 @@
     #main .tss {
         vertical-align: text-top; 
         line-height: 0.50cm;
-        font-size: 30px;
+        font-size: 25px;
     }
+
+    #main .tsn {
+        line-height: 0.50cm;
+        font-size: 30px;
+      }
 
     #main .bs {
         font-size: 10px;
@@ -55,6 +38,11 @@
 
     #main .imagen_fondo {
         background-image: url(./assets/images/bg_responsive.png);
+      }
+
+    #header, #main p, #me, #services, #portfolio, #contact, #footer {
+        padding-left: 10px;
+        padding-right: 10px;
       }
 
 }
