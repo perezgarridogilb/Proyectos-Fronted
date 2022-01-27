@@ -1,0 +1,21 @@
+<mat-toolbar class="header-toolbar" color="primary">
+  <mat-toolbar-row>
+    <div class="container">
+      <div class="row between-xs middle-xs header-row">
+        <nav>
+          Tienda en línea
+          <span class="aa">
+            <a mat-button routerLink="/home" routerLinkActive="active">Principal</a>
+            <a mat-button routerLink="/products" routerLinkActive="active">Productos</a>
+            <a mat-button routerLink="/contact" routerLinkActive="active">Contacto</a>
+          </span>
+          <span class="a">
+            <a routerLink="/order" mat-raised-button [matBadge]="total$ | async" matBadgeColor="warn">
+              <mat-icon>shopping_cart</mat-icon>
+              Carrito
+            </a></span>
+        </nav>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
