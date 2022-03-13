@@ -14,9 +14,17 @@
     <link rel="stylesheet" href="./styles.css">
     <!-- Una vez que lleges a este pixelaje descargame estos archivos nuevos -->
     <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
+    <!-- Preloader -->
+    <link rel="stylesheet" href="preloader.css">
 </head>
 
 <body>
+    <div class="centrado" id="preloader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <header>
         <img src="./assets/img/logo.svg" alt="">
         <div class="header--title-container">
@@ -185,6 +193,9 @@
             <img src="./assets/img/logo-footer.svg" alt="Logo de Batatabit 2020">
         </section>
     </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
