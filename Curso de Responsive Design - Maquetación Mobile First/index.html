@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B</title>
+    <title>Batatabit</title>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
         rel="stylesheet">
     <!-- <link href=“https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap” rel=“stylesheet”> -->
     <!-- Cualquier página sólo debe tener un h1 por temas de SEO -->
     <link rel="stylesheet" href="./styles.css">
+    <!-- Una vez que lleges a este pixelaje descargame estos archivos nuevos -->
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 </head>
 
 <body>
@@ -32,7 +34,7 @@
                 <h2>Visibilizamos todas las tasas de cambio.</h2>
                 <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo</p>
             </div>
-            <section class="main-tables-container">
+            <div class="main-tables-container">
                 <div class="main-currency-table">
                     <p class="currency-table--title">Monedas</p>
                     <div class="currency-table--container">
@@ -44,15 +46,15 @@
                             </tr>
                             <tr>
                                 <td>Ethereum</td>
-                                <td class="table__right">$0.07</td>
+                                <td class="table__right">$0.07 <span class="up"></span></td>
                             </tr>
                             <tr>
                                 <td>Ripple</td>
-                                <td class="table__right">$2.17</td>
+                                <td class="table__right">$2.17 <span class="down"></span></td>
                             </tr>
                             <tr>
                                 <td class="table__bottom-left">Stellar</td>
-                                <td class="table__bottom-right table__right">$4.96</td>
+                                <td class="table__bottom-right table__right">$4.96 <span class="down"></span></td>
                             </tr>
                         </table>
                     </div>
@@ -60,7 +62,33 @@
                         <p><b>Actualizado:</b> 19 de Julio 23:46</p>
                     </div>
                 </div>
-            </section>
+                <div class="main-commissions-table">
+                    <p class="commissions-table--title">Comisiones</p>
+                    <div class="commissions-table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">Bitrade</td>
+                                <td class="table__top-right table__right">$12.96</td>
+                            </tr>
+                            <tr>
+                                <td>Bitpreco</td>
+                                <td class="table__right">$13.07</td>
+                            </tr>
+                            <tr>
+                                <td>Novadax</td>
+                                <td class="table__right">$13.15</td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left">Coinext</td>
+                                <td class="table__bottom-right table__right">$14.96</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="commissions-table--date">
+                        <p><b>Actualizado: </b>19 Julio 23:48</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="main-product-detail">
             <span class="product-detail--batata-logo"></span>
@@ -69,16 +97,14 @@
                 <p>Confiable y diseñado para su uso diario.</p>
             </div>
             <div class="product-cards--container">
-                <section class="product-cards--container">
-                    <article class="product-detail--card">
-                        <span class="clock"></span>
-                        <p class="product--card-title">Tiempo real</p>
-                        <p class="product--card-body">
-                            Nuestra API toma información minuto a minuto sobre las tasas que más determinan el
-                            comportamiento.
-                        </p>
-                    </article>
-                </section>
+                <article class="product-detail--card">
+                    <span class="clock"></span>
+                    <p class="product--card-title">Tiempo real</p>
+                    <p class="product--card-body">
+                        Nuestra API toma información minuto a minito sobre las tasas que
+                        más determinan el comportamiento.
+                    </p>
+                </article>
                 <article class="product-detail--card">
                     <span class="eye"></span>
                     <p class="product--card-title">No hay tasas escondidas</p>
@@ -103,8 +129,8 @@
                         su contenido miesntras se actualizan.
                     </p>
                 </article>
+            </div>
         </section>
-        </div>
         <section class="bitcoin-img-container">
             <h2>Conócelo hoy.</h2>
         </section>
@@ -116,34 +142,34 @@
             <div class="plans-container--slider">
                 <div class="plans-container--plans">
                     <div class="plan-card">
-                      <h3 class="plan-card--title">Pago Anual</h3>
-                      <p class="plan-card--price"><span>$</span> 99</p>
-                      <p class="plan-card--saving">
-                        *Ahorras $129 comparado el plan mensual.
-                      </p>
-                      <button class="plan-card--ca">Escoger este <span></span></button>
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span> 99</p>
+                        <p class="plan-card--saving">
+                            *Ahorras $129 comparado el plan mensual.
+                        </p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
-                  </div>
+                </div>
                 <div class="plans-container--plans">
                     <p class="recommended">Recomendado</p>
                     <div class="plan-info-container">
                         <h3 class="plan-card--title">Pago anual</h3>
-                        <p class="plan-card--price"><span>$</span>99</p>
+                        <p class="plan-card--price"><span>$</span> 99</p>
                         <p class="plan-card--saving">
-                            * Ahorras $129 comparado el plan mensual.</p>
+                            *Ahorras $129 comparado el plan mensual.</p>
                         <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </div>
                 <div class="plans-container--plans">
                     <div class="plan-card">
-                      <h3 class="plan-card--title">Pago Anual</h3>
-                      <p class="plan-card--price"><span>$</span> 99</p>
-                      <p class="plan-card--saving">
-                        *Ahorras $129 comparado el plan mensual.
-                      </p>
-                      <button class="plan-card--ca">Escoger este <span></span></button>
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span> 99</p>
+                        <p class="plan-card--saving">
+                            *Ahorras $129 comparado el plan mensual.
+                        </p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
-                  </div>
+                </div>
             </div>
         </section>
     </main>
