@@ -17,6 +17,8 @@ Este repositorio contiene algunos proyectos fronted que he hecho con el objetivo
 
 ![Batatabit](https://user-images.githubusercontent.com/56992179/157381931-679e2138-ebef-4313-bf85-6cfd2d43e162.png)
 
+**[Curso Básico de Tailwind 2 y 3](https://perezgarridogilb.live/Fronted-projects/Curso%20de%20Responsive%20Design%20-%20Maquetaci%C3%B3n%20Mobile%20First/)**
+
 **[Portfolio](https://perezgarridogilb.github.io/Fronted-projects/Portfolio/)**
 
 image
